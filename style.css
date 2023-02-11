@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,6 +12,7 @@ body {
   margin-top: 10px;
   margin-left: 30px;
   margin-bottom: 20px;
+  color: white;
 }
 
 .color {
@@ -54,7 +55,7 @@ body {
 
 #clear-board {
   margin: 10px;
-  margin-right: 120px;
+  
 }
 
 .container {
@@ -67,4 +68,25 @@ body {
 
 .selected {
     box-shadow: initial 0px 0px 30px black;
+}
+
+#board-size {
+  width: 30%;
+}
+
+#container-clear {
+  display: flex;
+  justify-content: center;
+}
+
+
+#container-main-size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#generate-board{
+  margin-left: 15px;
 }

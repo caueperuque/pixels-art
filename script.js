@@ -87,8 +87,8 @@ const addPixels = () => {
     const createPixel = document.createElement('div');
     createPixel.className = 'pixel';
     getBoard.append(createPixel);
-    getBoard.height = 5 * 42 + 'px'
-    getBoard.width = 5 * 42 + 'px'
+    getBoard.height = 5 * 40 + 'px'
+    getBoard.width = 5 * 40 + 'px'
   }
   addEventPixels();
 };
@@ -177,8 +177,8 @@ const boardSize = () => {
       const createPixel = document.createElement('div');
       createPixel.className = 'pixel';
       getBoard.append(createPixel);
-      pixelBoard.style.width = 5 * 42 + 'px';
-      pixelBoard.style.height = 5 * 42 + 'px';
+      pixelBoard.style.width = 5 * 40 + 'px';
+      pixelBoard.style.height = 5 * 40 + 'px';
     }
   } else if (getInputValue >= 50 && getInputValue > 0){
     pixelBoard.innerHTML = '';
@@ -186,8 +186,8 @@ const boardSize = () => {
       const createPixel = document.createElement('div');
       createPixel.className = 'pixel';
       getBoard.append(createPixel);
-      pixelBoard.style.width = 50 * 42 + 'px';
-      pixelBoard.style.height = 50 * 42 + 'px';
+      pixelBoard.style.width = 50 * 40 + 'px';
+      pixelBoard.style.height = 50 * 40 + 'px';
     }
   } else if (getInputValue > 0){
     pixelBoard.innerHTML = '';
@@ -195,8 +195,8 @@ const boardSize = () => {
       const createPixel = document.createElement('div');
       createPixel.className = 'pixel';
       getBoard.append(createPixel);
-      pixelBoard.style.width = getInputValue * 42 + 'px';
-      pixelBoard.style.height = getInputValue * 42 + 'px';
+      pixelBoard.style.width = getInputValue * 40 + 'px';
+      pixelBoard.style.height = getInputValue * 40 + 'px';
     } 
   } else {
     alert('Board Inválido!')
@@ -212,8 +212,8 @@ const defaultSize = () => {
       const createPixel = document.createElement('div');
       createPixel.className = 'pixel';
       getBoard.append(createPixel);
-      pixelBoard.style.width = 5 * 42 + 'px';
-      pixelBoard.style.height = 5 * 42 + 'px';
+      pixelBoard.style.width = 5 * 40 + 'px';
+      pixelBoard.style.height = 5 * 40 + 'px';
     }
   }
   addEventPixels();
