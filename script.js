@@ -25,6 +25,7 @@ const createBtnRandom = () => {
   createBtn.innerText = 'Cores aleatórias';
   document.body.appendChild(createBtn);
 };
+const getcontainer = document.getElementById('container-clear');
 
 createBtnRandom();
 
@@ -201,6 +202,7 @@ const boardSize = () => {
   } else {
     alert('Board Inválido!')
   }
+  localStorage.setItem('boardsize', pixelBoard.style.height)
   addEventPixels();
 };
 
@@ -237,6 +239,17 @@ for (let color of colors) {
     color.addEventListener('mousedown', upSize);
     color.addEventListener('mouseup', downSize);
 }
+
+// const saveSize = () => {
+//   const pixelBoard = document.getElementById('pixel-board');
+//   const getItemLS = localStorage.getItem('boardsize');
+//   pixelBoard.style.height = getItemLS;
+//   pixelBoard.style.width = getItemLS;
+// }
+
+document.getElementById('container-main-size').appendChild(document.getElementById('button-random-color'))
+document.getElementById('button-random-color').classList.add('button')
+document.getElementById('button-random-color').style.marginLeft = '10px'
 
 
 
