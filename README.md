@@ -5,5 +5,5 @@
 </p>
 
 <h2>Oque é esse projeto :thinking:</h2>
-<p>Projeto simples em que criei um joguinho de Pixel Art, onde pode desenhar em pixels. Não está totalmente finalizado, mas está pronto para uso</p>
+<p>Projeto simples em que criei um joguinho de Pixel Art, onde pode desenhar em pixels.</p>
 <p>Criado em 11/02/2023 :upside_down_face:</p>
